@@ -19,3 +19,13 @@ body {
 .video {
     margin-bottom: 20px;
 }
+
+h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
