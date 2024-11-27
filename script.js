@@ -1,6 +1,6 @@
 async function searchVideos() {
     const query = document.getElementById('searchQuery').value;
-    const apiKey = 'YOUR_YOUTUBE_API_KEY';
+    const apiKey = 'AIzaSyA9P__GsRR2UjAe6rWS_INjWJ5FdGDaMuY'; // Your API key
     const response = await fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&q=${query}&key=${apiKey}`);
     const data = await response.json();
 
