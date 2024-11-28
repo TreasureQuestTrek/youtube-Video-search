@@ -1,35 +1,63 @@
 body {
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Smooth gradient background */
+    background-color: #f0f0f0;
     margin: 0;
+    padding: 0;
 }
 
 .container {
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.8); /* White background with some transparency */
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 #results {
     margin-top: 20px;
 }
 
-.video {
-    margin-bottom: 20px;
+/* Additional CSS for video results (example): */
+.video-result {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
 }
 
-h3 {
-    font-size: 18px;
-    margin: 10px 0;
+.video-thumbnail {
+    float: left;
+    margin-right: 10px;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+.video-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.video-description {
+    font-size: 14px;
+    color: #666;
 }
