@@ -42,22 +42,15 @@ button {
 }
 
 /* Additional CSS for video results (example): */
-.video-result {
-    border-bottom: 1px solid #ccc;
-    padding: 10px;
-}
 
-.video-thumbnail {
-    float: left;
-    margin-right: 10px;
-}
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
 
-.video-title {
-    font-weight: bold;
-    margin-bottom: 5px;
-}
+    h1 {
+        font-size: 20px;
+    }
 
-.video-description {
-    font-size: 14px;
-    color: #666;
+    /* Add more specific adjustments for smaller screens as needed */
 }
